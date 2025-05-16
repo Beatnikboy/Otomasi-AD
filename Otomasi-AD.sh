@@ -222,7 +222,7 @@ SMB_Attack() {
 
     local responder_conf_path="/home/kali/Documents/Responder-2.3.3.9/Responder.conf"
     local responder_path="/home/kali/Documents/Responder-2.3.3.9"
-    local ntlmrelayx_path="/home/kali/Documents/impacket/examples"
+    local ntlmrelayx_path="/home/kali/Documents/impacket-0.9.21/examples"
 
     echo "[+] Menonaktifkan SMB dan HTTP pada Responder.conf..."
     sed -i 's/^SMB = On/SMB = Off/' "$responder_conf_path"
